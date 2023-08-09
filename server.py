@@ -48,6 +48,11 @@ from modules.models_settings import (
 )
 from modules.utils import gradio
 
+# Next 2 lines copied from https://github.com/cinemagoer/cinemagoer on 24 th of July 2023
+from imdb import Cinemagoer
+
+# create an instance of the Cinemagoer class
+ia = Cinemagoer()
 
 def create_interface():
 
