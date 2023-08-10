@@ -32,7 +32,7 @@ session_is_loading = False
 settings = {
     'dark_theme': True,
     'autoload_model': False,
-    'max_new_tokens': 2,
+    'max_new_tokens': 200,
     'max_new_tokens_min': 1,
     'max_new_tokens_max': 4096,
     'auto_max_new_tokens': False,
